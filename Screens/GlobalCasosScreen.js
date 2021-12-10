@@ -19,17 +19,17 @@ export default function GlobalCasosScreen({navigation}) {
     }, [])
 
     return (
-        <View style={styles.container3}>  
+        <View style={styles.container3}> 
 
             <View style={styles.container2}>
-                <Text>Poblacion: {Llamada.population}</Text>
-                <Text>Casos totales: {Llamada.cases}</Text>
-                <Text>Casos del dia de hoy: {Llamada.todayCases}</Text>
-                <Text>Casos activos: {Llamada.active}</Text>
-                <Text>Casos criticos: {Llamada.critical}</Text>
-                <Text>Pruebas aplicadas: {Llamada.tests}</Text>
-                <Text>Decesos totales: {Llamada.deaths}</Text>
-                <Text>Decesos del dia de hoy: {Llamada.todayDeaths}</Text>
+                <Text>Poblacion: {casosGlobales.population}</Text>
+                <Text>Casos totales: {casosGlobales.cases}</Text>
+                <Text>Casos del dia de hoy: {casosGlobales.todayCases}</Text>
+                <Text>Casos activos: {casosGlobales.active}</Text>
+                <Text>Casos criticos: {casosGlobales.critical}</Text>
+                <Text>Pruebas aplicadas: {casosGlobales.tests}</Text>
+                <Text>Decesos totales: {casosGlobales.deaths}</Text>
+                <Text>Decesos del dia de hoy: {casosGlobales.todayDeaths}</Text>
 
             </View>
         </View>
